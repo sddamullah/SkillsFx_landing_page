@@ -1,0 +1,134 @@
+/* Custom styles for search bar with icon inside */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* hero image */
+
+.hero-image {
+  background-image: url("head3.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 450px;
+  background-attachment: fixed;
+}
+.overlay {
+  background: #000000b9;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 2;
+}
+.hero-text .h1 {
+  font-size: 40px;
+}
+
+@media only screen and (min-width: 820px) {
+  .mobilemenue {
+    display: block;
+  }
+}
+@media only screen and (min-width: 920px) {
+  .hero-image {
+    height: 600px;
+  }
+  .hero-text .h1 {
+    font-size: 50px;
+  }
+  .hero-text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+  }
+}
+
+/*start of popup*/
+
+.hmos div {
+  line-height: 20px;
+}
+.hmos .fs-1 {
+  line-height: 40px;
+}
+.shadw {
+  box-shadow: 2px 2px 5px rgba(28, 27, 27, 0.446);
+}
+.m2x {
+  margin-top: 120px;
+}
+.contform {
+  font-size: 30px;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+.contform:focus {
+  box-shadow: none;
+  border-color: grey;
+}
+
+/* nzvbzr */
+.navbar-brand {
+  font-size: 25px;
+}
+
+.dropdown-toggle:focus {
+  border: 0px;
+  box-shadow: none;
+}
+
+.dropdown-menu li:hover {
+  background-color: rgb(14, 139, 0) !important;
+  color: white !important;
+}
+
+.search:focus {
+  border: 1px solid grey;
+  box-shadow: none;
+}
+
+.search {
+  border: 1px solid grey;
+}
+
+.login {
+  background: none;
+  border: none;
+}
+
+.signup {
+  background-color: rgb(14, 139, 0);
+  color: white;
+  border-radius: 100%;
+  border: none;
+}
+.navbar-toggler {
+  box-shadow: none;
+  background-color: rgb(14, 139, 0);
+  color: white !important;
+}
+.navbar-toggler-icon {
+  color: white !important;
+}
+.font1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.font {
+  font-family: "Merriweather", serif;
+ 
+  font-style: normal;
+}
